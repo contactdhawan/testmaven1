@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2015-11-15T06:08:04.604">
+<file name="C:\Users\Neeraj\workspace\testmaven\src\main\java\com\csc\spring\test\testmaven\App.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="75" rule="UnusedImports" ruleset="Import Statements" package="com.csc.spring.test.testmaven" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.springframework.context.support.FileSystemXmlApplicationContext'
+</violation>
+</file>
+<file name="C:\Users\Neeraj\workspace\testmaven\src\main\java\com\csc\spring\test\testmaven\Person.java">
+<violation beginline="12" endline="12" begincolumn="35" endcolumn="37" rule="AvoidUsingOctalValues" ruleset="Basic" package="com.csc.spring.test.testmaven" class="Person" method="getInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/basic.html#AvoidUsingOctalValues" priority="3">
+Do not start a literal by 0 unless its an octal value
+</violation>
+</file>
+</pmd>

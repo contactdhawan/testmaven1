@@ -1,8 +1,8 @@
 package com.csc.spring.test.testmaven;
 
 public class Address {
-String street;
-String zipcode;
+private String street;
+private String zipcode;
 @Override
 public String toString() {
 	return "Address [street=" + street + ", zipcode=" + zipcode + "]";

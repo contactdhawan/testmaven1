@@ -2,10 +2,10 @@ package com.csc.spring.test.testmaven;
 
 public class Person {
 
-	int id;
-	String name;
-	String taxId;
-	Address add1;
+	private int id;
+	private String name;
+	private String taxId;
+	private Address add1;
 	
 	public static Person getInstance(int id,String name){
 		System.out.println("creating person instance...");
