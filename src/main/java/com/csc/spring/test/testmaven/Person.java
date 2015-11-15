@@ -9,7 +9,7 @@ public class Person {
 	
 	public static Person getInstance(int id,String name){
 		System.out.println("creating person instance...");
-		return new Person(007,"Neeraj");
+		return new Person(7,"Neeraj");
 	}
 	
 	public void init(){
